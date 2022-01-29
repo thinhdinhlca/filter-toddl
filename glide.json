@@ -6,23 +6,38 @@
     "author": "Thinh Dinh <thinh@lowcode.agency>",
     "params": [
       {
+        "name": "age",
+        "displayName": "Age",
+        "type": "string"
+      },
+      {
+        "name": "city",
+        "displayName": "City",
+        "type": "string"
+      },
+      {
         "name": "location",
         "displayName": "Location",
         "type": "string"
       },
       {
-        "name": "gender",
-        "displayName": "Gender",
+        "name": "interest",
+        "displayName": "Interest",
         "type": "string"
       },
       {
-        "name": "price",
-        "displayName": "Price",
+        "name": "language",
+        "displayName": "Language",
         "type": "string"
       },
       {
-        "name": "htype",
-        "displayName": "Horse Type",
+        "name": "week",
+        "displayName": "Week",
+        "type": "string"
+      },
+      {
+        "name": "all",
+        "displayName": "All",
         "type": "string"
       }
     ],
