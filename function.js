@@ -6,7 +6,7 @@ age = age.value ?? "";
 city = city.value ?? "";
 location = location.value ?? "";
 interest = interest.value ?? "";
-language = language.value ?? "":
+language = language.value ?? "";
 week = week.value ?? "";
   
 age_arr = age.split(",");
