@@ -8,6 +8,13 @@ location = location.value ?? "";
 interest = interest.value ?? "";
 language = language.value ?? "";
 week = week.value ?? "";
+
+age = age.trim() + ",";
+city = city.trim() + ",";
+location = location.trim() + ",";
+interest = interest.trim() + ",";
+language = language.trim() + ",";
+week = week.trim() + ",";
   
 age_arr = age.split(",");
 city_arr = city.split(",");
