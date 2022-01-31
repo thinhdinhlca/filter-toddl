@@ -10,13 +10,13 @@ language = language.value ?? "";
 week = week.value ?? "";
 all = all.value ?? "";
   
-const age_arr = age.split(",");
-const city_arr = city.split(",");
-const loc_arr = location.split(",");
-const int_arr = interest.split(",");
-const lan_arr = language.split(",");
-const week_arr = week.split(",");
-const all_arr = all.split(",");
+const age_arr = age.split(", ");
+const city_arr = city.split(", ");
+const loc_arr = location.split(", ");
+const int_arr = interest.split(", ");
+const lan_arr = language.split(", ");
+const week_arr = week.split(", ");
+const all_arr = all.split(", ");
 
 //var arrays = [age_arr,city_arr,loc_arr,int_arr,lan_arr,week_arr];
   
