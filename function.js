@@ -18,11 +18,7 @@ week_arr = week.split(",");
 
 var arrays = [age_arr,city_arr,loc_arr,int_arr,lan_arr,week_arr];
   
-var res1 = arrays.filter(function(v) {
-    return arrays.every(function(a) {
-        return a.indexOf(v) !== -1;
-    });
-});
+var res1 = arrays.reduce((p,c) => p.filter(e => c.includes(e)));
 
 var res2 = res1.join(', ');
 
