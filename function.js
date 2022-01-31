@@ -31,6 +31,6 @@ for(let i of all_arr){
     res_arr.push(i)
   }
 }
-return res_arr.join(",");
+return res_arr.join(", ");
 
 }
