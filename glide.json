@@ -34,6 +34,11 @@
         "name": "week",
         "displayName": "Week",
         "type": "string"
+      },
+      {
+        "name": "all",
+        "displayName": "All",
+        "type": "string"
       }
     ],
     "result": {
