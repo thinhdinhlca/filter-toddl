@@ -8,6 +8,13 @@ location = location.value ?? "";
 interest = interest.value ?? "";
 language = language.value ?? "";
 week = week.value ?? "";
+  
+age_arr = age.split(",");
+city_arr = city.split(",");
+loc_arr = location.split(",");
+int_arr = interest.split(",");
+lan_arr = language.split(",");
+week_arr = week.split(",");
 
 var arrays = [age_arr,city_arr,loc_arr,int_arr,lan_arr,week_arr];
   
